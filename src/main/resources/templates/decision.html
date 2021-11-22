@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Decision</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-9 mb-2 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Puzzle</h5>
+    <div>
+        <a href="decision">Decision</a>
+    </div>
+</div>
+<div>
+    <center><a href="startpage">Back</a><center>
+</div>
+<h3 align="center">Answer</h3>
+<br>
+<div style="margin-left:415px;">
+  <p1 align="left">1 картинка - кино <br> 2 картинка - храм (1 букву меняем на д и получаем драм)<br>3 картинка - сатурн (убираем 1 и 6 букву получаем атур)<br>4 картинка - буква г<br>  </p1>
+</div>
+<br>
+<h3 align="center"><p th:text="'Получили слово - '+${name}"/></h3>
+</body>
+</html>
