@@ -10,5 +10,4 @@ public class DecisionController {
         model.addAttribute("name", "кинодраматург");
         return "decision";
     }
-
 }
